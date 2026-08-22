@@ -1,0 +1,6 @@
+{
+  "name": "The Learning Express",
+  "description": "An educational newspaper-learning system for students in Classes 8–10 using the Indian Express to turn daily news into cumulative, conceptual world understanding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
