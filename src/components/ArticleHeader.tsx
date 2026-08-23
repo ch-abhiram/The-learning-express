@@ -25,6 +25,14 @@ export const ArticleHeader: React.FC<ArticleHeaderProps> = ({
   fontSize,
   onToggleFontSize,
 }) => {
+  const today = new Date();
+  const formattedDate = today.toLocaleDateString('en-IN', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+
   return (
     <header className="border-b-4 border-[#24211D] bg-[#FAF7F0] pt-6 pb-4">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-4">
@@ -45,6 +53,11 @@ export const ArticleHeader: React.FC<ArticleHeaderProps> = ({
           <p className="text-xs sm:text-sm text-[#4E4435] max-w-2xl mx-auto italic font-serif-news">
             "{subheading}"
           </p>
+
+          {/* Live Edition Date */}
+          <div className="pt-1 text-[11px] sm:text-xs font-mono uppercase tracking-widest text-[#6E614E] font-bold">
+            {formattedDate}
+          </div>
         </div>
 
         {/* Newspaper Divider Lines */}
