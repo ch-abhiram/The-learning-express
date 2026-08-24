@@ -19,7 +19,6 @@ export default function App() {
     }
   });
 
-  // Save student explanations to localStorage
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_EXPLANATIONS_KEY, JSON.stringify(explanations));
@@ -44,7 +43,6 @@ export default function App() {
     (a) => a.id === selectedArticleId
   );
 
-  // Scroll to top whenever selected article changes
   useEffect(() => {
     const scrollToTop = () => {
       window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
@@ -80,7 +78,6 @@ export default function App() {
         fontSize === 'large' ? 'text-lg' : 'text-base'
       }`}
     >
-      {/* Newspaper Header */}
       <ArticleHeader
         newspaperName={indianExpressEdition.newspaperName}
         editionDate={indianExpressEdition.editionDate}
@@ -93,20 +90,17 @@ export default function App() {
         onToggleFontSize={() => setFontSize(fontSize === 'normal' ? 'large' : 'normal')}
       />
 
-      {/* Main Reading Canvas */}
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8 w-full flex-1">
-        {/* Editorial Introduction Note */}
         <div className="bg-[#FAF7F0] border-2 border-[#24211D] rounded-xl p-5 mb-8 shadow-xs">
           <div className="flex items-center gap-2 text-xs font-mono font-bold text-[#6E614E] uppercase tracking-wider mb-1">
             <BookOpen className="w-4 h-4 text-amber-700" />
             <span>HOW TO USE TODAY'S ISSUE</span>
           </div>
           <p className="font-serif-news text-sm sm:text-base text-[#382F22] leading-relaxed">
-            We have scanned today's <em>Indian Express</em> and carefully curated <strong>today's essential articles</strong> covering economics, world maritime routes, manufacturing policies, and clean energy. Each story provides the missing background knowledge and real-life analogies first, so you understand the world like an informed young citizen.
+            Today’s <em>Indian Express</em> has been carefully curated into five essential stories spanning geopolitics, science, technology, environment and engineering. Each story gives you the background knowledge you need first, then connects the headline to everyday ideas so that you understand the news rather than simply memorise it.
           </p>
         </div>
 
-        {/* Selected Articles */}
         <div className="space-y-12">
           {displayedArticles.map((article) => (
             <ArticleView
@@ -118,7 +112,6 @@ export default function App() {
           ))}
         </div>
 
-        {/* Next / Previous Article Navigation (When viewing single story) */}
         {selectedArticleId !== 'all' && (
           <div className="flex items-center justify-between gap-4 border-t-2 border-[#24211D] pt-6 mb-8">
             <button
@@ -160,14 +153,13 @@ export default function App() {
         )}
       </main>
 
-      {/* Newspaper Footer */}
       <footer className="border-t-4 border-[#24211D] bg-[#EFEAD8] py-8 text-center text-xs text-[#52493A] mt-10">
         <div className="max-w-4xl mx-auto px-4 space-y-3">
           <p className="font-serif-news text-base font-bold text-[#1F1C18]">
             THE LEARNING EXPRESS • Clean Editorial Reading Edition
           </p>
           <p className="max-w-xl mx-auto leading-relaxed">
-            Primary factual source: <em>The Indian Express</em> (Saturday, August 22, 2026, Delhi Late City Edition).
+            Primary factual source: <em>The Indian Express</em>, Monday, August 24, 2026, Delhi edition.
             Designed for students in Classes 8–10 to build foundational background knowledge, news literacy, and critical thinking.
           </p>
           <div className="newspaper-rule-double my-3" />
