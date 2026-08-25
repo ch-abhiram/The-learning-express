@@ -97,7 +97,7 @@ export default function App() {
             <span>HOW TO USE TODAY'S ISSUE</span>
           </div>
           <p className="font-serif-news text-sm sm:text-base text-[#382F22] leading-relaxed">
-            Today’s <em>Indian Express</em> has been carefully curated into five essential stories spanning geopolitics, science, technology, environment and engineering. Each story gives you the background knowledge you need first, then connects the headline to everyday ideas so that you understand the news rather than simply memorise it.
+            Today’s <em>Indian Express</em> has been carefully curated into five essential stories spanning geopolitics, water diplomacy, employment, urban climate resilience and archaeology. Each story gives you the background knowledge you need first, then connects the headline to everyday ideas so that you understand the news rather than simply memorise it.
           </p>
         </div>
 
@@ -159,7 +159,7 @@ export default function App() {
             THE LEARNING EXPRESS • Clean Editorial Reading Edition
           </p>
           <p className="max-w-xl mx-auto leading-relaxed">
-            Primary factual source: <em>The Indian Express</em>, Monday, August 24, 2026, Delhi edition.
+            Primary factual source: <em>The Indian Express</em>, Tuesday, August 25, 2026, Delhi edition.
             Designed for students in Classes 8–10 to build foundational background knowledge, news literacy, and critical thinking.
           </p>
           <div className="newspaper-rule-double my-3" />
