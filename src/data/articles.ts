@@ -2,404 +2,164 @@ import { ExplainingArticle, NewspaperEdition } from '../types';
 
 export const indianExpressEdition: NewspaperEdition = {
   newspaperName: 'The Indian Express',
-  editionDate: 'Tuesday, August 25, 2026',
+  editionDate: 'Wednesday, August 26, 2026',
   targetAudience: 'Classes 8–10 (Ages 13–16)',
   subheading: 'Daily News Decoded • Turning Headlines into Lifelong Understanding',
   articles: [
     {
-      id: 'jaishankar-putin-india-russia',
-      number: 1,
-      title: 'Why Are India and Russia Focusing on Trade, Energy and Fertilisers?',
-      category: '🌏 World & Geopolitics',
-      newspaperPage: 'Page 1 (Front Page)',
-      hook: 'Imagine your family depends on another country for an important item such as fuel or fertiliser. Even if the two countries do not agree on everything, you would want that supply to remain reliable. That is one reason India continues to give practical importance to its relationship with Russia.',
+      id: 'xi-jinping-brics-delhi', number: 1,
+      title: 'Why Could Xi Jinping’s BRICS Visit Matter for India–China Relations?',
+      category: '🌏 World & Geopolitics', newspaperPage: 'Page 1 (Front Page)',
+      hook: 'Imagine two neighbours who have had a serious disagreement but still need to attend the same community meeting. Their meeting does not automatically solve the dispute, but it creates an opportunity to manage it. That is one way to understand the importance of a possible Xi Jinping visit to India.',
       whatHappened: {
-        lead: 'External Affairs Minister S. Jaishankar met Russian President Vladimir Putin in Moscow, with the two sides discussing trade, energy, fertilisers, nuclear energy and high-technology cooperation.',
-        who: 'India’s External Affairs Minister S. Jaishankar, Russian President Vladimir Putin and officials from both countries.',
-        where: 'Moscow, Russia.',
-        when: 'August 24, 2026, ahead of planned Modi–Putin meetings at the SCO and BRICS summits.',
-        what: 'The meeting highlighted efforts to deepen India–Russia economic cooperation. Russia is seeking to expand supplies of energy and fertilisers to India, while both sides also want progress in nuclear energy, technology and trade. The two countries have set a bilateral trade target of $100 billion by 2030.',
-        immediateIssue: 'India needs reliable energy and fertiliser supplies while also trying to expand exports to Russia and reduce the imbalance in bilateral trade.',
+        lead: 'The Indian Express reports that Chinese President Xi Jinping is likely to attend the BRICS leaders’ summit in New Delhi on September 12–13, with a Chinese advance team already arriving for security and protocol preparations.',
+        who: 'Chinese President Xi Jinping and Indian officials preparing for the BRICS summit.', where: 'New Delhi, India.', when: 'The possible visit is expected in September 2026; Xi last visited India in October 2019.',
+        what: 'Xi’s possible attendance would be his first India visit in seven years. The report places the visit in the context of efforts to restore India–China ties after the military standoff along the Line of Actual Control in eastern Ladakh.',
+        immediateIssue: 'The two countries have to manage unresolved security concerns while also engaging through multilateral forums such as BRICS.',
       },
       whatYouNeedToKnow: [
-        {
-          conceptName: '1. What is Bilateral Trade?',
-          explanation: 'Bilateral trade is the buying and selling of goods and services between two countries.',
-        },
-        {
-          conceptName: '2. Why are Fertilisers Important?',
-          explanation: 'Fertilisers provide nutrients that help crops grow. Reliable fertiliser supplies therefore matter for agricultural production and food security.',
-        },
-        {
-          conceptName: '3. What is Strategic Autonomy?',
-          explanation: 'Strategic autonomy means having enough freedom in foreign policy to protect national interests rather than depending completely on another major power.',
-        },
+        { conceptName: '1. What is BRICS?', explanation: 'BRICS is a grouping of major emerging economies that provides a forum for political, economic and diplomatic coordination.' },
+        { conceptName: '2. What is the LAC?', explanation: 'The Line of Actual Control is the effective military boundary between Indian- and Chinese-controlled territory along their disputed border.' },
+        { conceptName: '3. Why Do Summits Matter?', explanation: 'Leader-level meetings can create channels for dialogue even when countries disagree on major issues.' },
       ],
-      breakItDown: {
-        analogyTitle: 'The School-Supplies Analogy',
-        analogyText: 'Imagine your school buys laboratory equipment from one supplier and food from another. If one supplier becomes unreliable, the school has to keep alternative relationships available. Countries do something similar with energy, technology, food inputs and trade partners.',
-        chain: ['India needs energy and fertilisers', 'Russia is a major supplier', 'Both countries also want more trade', 'They discuss nuclear and high-tech cooperation', 'India tries to balance economic needs with wider foreign-policy interests'],
-        formalTermExplanation: 'India–Russia relations are an example of bilateral relations in which economic interests, energy security, defence history and wider geopolitics overlap.',
-      },
+      breakItDown: { analogyTitle: 'The Difficult-Neighbours Analogy', analogyText: 'Two neighbours may disagree about a boundary while still having to cooperate on common matters. Diplomacy works similarly: disagreement does not always mean that communication stops.', chain: ['Border tensions', 'Need for dialogue', 'BRICS provides a meeting platform', 'Possible Xi visit', 'Opportunity to manage bilateral ties'], formalTermExplanation: 'Diplomatic engagement allows states to pursue communication and cooperation while continuing to protect their national interests.' },
       wordsYouNeedToKnow: [
-        {
-          term: 'Bilateral',
-          meaning: 'Involving two countries or two sides.',
-          example: 'India and Russia have a bilateral relationship.',
-        },
-        {
-          term: 'Energy Security',
-          meaning: 'Having dependable access to the energy a country needs at reasonable and manageable risk.',
-          example: 'Diversifying energy suppliers can strengthen energy security.',
-        },
-        {
-          term: 'Trade Deficit',
-          meaning: 'A situation in which a country imports more goods and services from another country than it exports to it.',
-          example: 'India is interested in increasing exports to Russia while maintaining important imports.',
-        },
+        { term: 'Multilateral', meaning: 'Involving several countries.', example: 'BRICS is a multilateral forum.' },
+        { term: 'Diplomacy', meaning: 'The practice of managing relations and negotiations between countries.', example: 'Diplomacy can keep communication open during disputes.' },
+        { term: 'Geopolitics', meaning: 'The study of how geography, power and strategic interests influence international relations.', example: 'The India–China border is an important geopolitical issue.' },
       ],
-      whyDoesThisMatter: {
-        heading: 'Why does this matter to India?',
-        points: [
-          {
-            label: 'Farmers',
-            text: 'Fertiliser availability affects agricultural costs and crop production.',
-          },
-          {
-            label: 'Energy',
-            text: 'Oil, gas and nuclear cooperation are connected to India’s long-term energy needs.',
-          },
-          {
-            label: 'Foreign Policy',
-            text: 'India maintains relationships with several major powers while trying to protect its own interests.',
-          },
-        ],
-      },
-      biggerPicture: {
-        chain: ['Resources', 'Trade', 'Technology', 'Strategic interests', 'Diplomatic relationships'],
-        summary: 'Foreign policy is often connected directly to everyday needs such as fuel, food production, technology and jobs.',
-      },
-      thinkAboutThis: [
-        'Why might India want strong relationships with several countries instead of depending on only one?',
-        'Why can trade be an important part of foreign policy?',
-      ],
-      explainPrompt: 'Explain why energy, fertilisers and trade are important parts of India–Russia relations.',
+      whyDoesThisMatter: { heading: 'Why does this matter to India?', points: [
+        { label: 'Security', text: 'India continues to have major concerns about its disputed Himalayan border with China.' },
+        { label: 'Economy', text: 'India and China are major economies whose relationship affects trade and supply chains.' },
+        { label: 'Global Forums', text: 'India uses platforms such as BRICS to engage with other major powers.' },
+      ] },
+      biggerPicture: { chain: ['Border dispute', 'Diplomatic dialogue', 'BRICS', 'Economic interests', 'Strategic competition'], summary: 'Countries can compete and cooperate at the same time; foreign policy often requires managing both relationships simultaneously.' },
+      thinkAboutThis: ['Why might India welcome dialogue with China even when border issues remain?', 'Why are multilateral organisations useful when two countries have bilateral disagreements?'],
+      explainPrompt: 'Explain why a possible Xi Jinping visit to India could be important even if India–China border issues are not fully resolved.'
     },
     {
-      id: 'farakka-treaty-bihar',
-      number: 2,
-      title: 'Why Does Bihar Want the Farakka Treaty Reconsidered?',
-      category: '🌊 Geography, Environment & International Relations',
-      newspaperPage: 'Page 7 (Explained)',
-      hook: 'Imagine two neighbouring students share the same water tank. One student builds a pipe to redirect some water, while the other says the change is hurting their supply. Now imagine that the disagreement involves an entire river crossing an international border. That is much harder to solve.',
+      id: 'canada-us-trade-war', number: 2,
+      title: 'What Happens When a Trade War Escalates?',
+      category: '💰 Economy & World Affairs', newspaperPage: 'Page 2 (The World)',
+      hook: 'Imagine one shop raises the price of goods coming from another shop, so the second shop responds by raising its own prices. Soon both sides are paying more and ordinary customers can get caught in the middle. That is the basic logic behind retaliatory tariffs.',
       whatHappened: {
-        lead: 'Bihar’s ruling NDA has raised objections to renewal of the 1996 India–Bangladesh Ganges Water Sharing Treaty, commonly associated with the Farakka Barrage, as the treaty’s 30-year term approaches its end.',
-        who: 'The Bihar government, the Union government, Bangladesh and political leaders involved in India’s water and foreign policy.',
-        where: 'The Ganga basin, with the Farakka Barrage located in West Bengal and downstream effects extending into Bangladesh and upstream Bihar concerns.',
-        when: 'The 1996 treaty was signed for 30 years and is due to expire in December 2026.',
-        what: 'The treaty regulates sharing of Ganga waters at Farakka mainly during the dry season. Bihar leaders argue that the barrage and associated siltation contribute to flooding and water stress in the state, while India must also manage its commitments to Bangladesh.',
-        immediateIssue: 'The Centre has to balance a state government’s concerns about floods and water availability with India’s international relationship and water-sharing obligations with Bangladesh.',
+        lead: 'Canada announced retaliatory tariffs on about $19.94 billion worth of US goods after new US duties, while also unveiling a $5.4 billion support package for affected workers and businesses.',
+        who: 'The governments of Canada and the United States, along with businesses, workers and consumers affected by tariffs.', where: 'Canada–United States trade relationship.', when: 'Announced August 25, 2026; Canadian counter-tariffs are scheduled to take effect September 8.',
+        what: 'Canada’s new duties of 15%, 25% and 50% cover around 700 products. The move follows new US tariffs on Canadian imports and marks a further escalation of the trade dispute.',
+        immediateIssue: 'Both countries are using tariffs to pressure the other side, while trying to protect domestic industries and workers from the economic effects.',
       },
       whatYouNeedToKnow: [
-        {
-          conceptName: '1. What is a Barrage?',
-          explanation: 'A barrage is a structure built across a river to control, divert or regulate water flow.',
-        },
-        {
-          conceptName: '2. What is a Transboundary River?',
-          explanation: 'A transboundary river flows through or forms a boundary between more than one country, making its management an international issue.',
-        },
-        {
-          conceptName: '3. What is Siltation?',
-          explanation: 'Siltation is the accumulation of fine soil and sediment in a river, reservoir or other water body. It can reduce the space available for water and alter river behaviour.',
-        },
+        { conceptName: '1. What is a Tariff?', explanation: 'A tariff is a tax imposed on imported goods.' },
+        { conceptName: '2. What is a Retaliatory Tariff?', explanation: 'It is a tariff imposed in response to tariffs imposed by another country.' },
+        { conceptName: '3. Who Can Be Affected?', explanation: 'Tariffs can affect exporters, importers, workers, businesses and consumers because imported goods can become more expensive.' },
       ],
-      breakItDown: {
-        analogyTitle: 'The Shared-River Analogy',
-        analogyText: 'If two villages depend on the same river, changing the river upstream can affect people downstream. But the upstream community also has its own needs. A water-sharing agreement tries to create rules so that both sides know what they can expect.',
-        chain: ['Ganga is shared across borders', 'Farakka controls/diverts part of river flow', 'India and Bangladesh have a water-sharing agreement', 'Bihar raises domestic concerns', 'Centre must balance federal and international interests'],
-        formalTermExplanation: 'Water diplomacy is the negotiation and management of shared water resources between political jurisdictions, especially countries sharing a river basin.',
-      },
+      breakItDown: { analogyTitle: 'The Price-War Analogy', analogyText: 'If two businesses keep adding extra charges to each other’s products, the final customer may face higher prices and fewer choices. Countries can create a similar chain reaction through tariffs.', chain: ['Country A imposes tariff', 'Country B retaliates', 'Imports become more expensive', 'Businesses adjust supply chains and prices', 'Workers and consumers may be affected'], formalTermExplanation: 'A trade war occurs when countries repeatedly impose trade restrictions against one another, often through tariffs.' },
       wordsYouNeedToKnow: [
-        {
-          term: 'Farakka Barrage',
-          meaning: 'A river-control structure on the Ganga in West Bengal that diverts water toward the Bhagirathi-Hooghly system.',
-          example: 'The Farakka Barrage is central to the India–Bangladesh Ganga water-sharing issue.',
-        },
-        {
-          term: 'Federalism',
-          meaning: 'A system in which powers are divided between the Union and state governments.',
-          example: 'Bihar’s concerns create a federal dimension to an international water issue.',
-        },
-        {
-          term: 'Water Diplomacy',
-          meaning: 'Negotiation between countries or regions over the use and management of shared water resources.',
-          example: 'India and Bangladesh use diplomacy to manage their shared river waters.',
-        },
+        { term: 'Import', meaning: 'A good or service bought from another country.', example: 'Canada imports many goods from the US.' },
+        { term: 'Export', meaning: 'A good or service sold to another country.', example: 'Canadian producers export goods to the US.' },
+        { term: 'Trade War', meaning: 'An escalating cycle of trade restrictions between countries.', example: 'Retaliatory tariffs can turn a tariff dispute into a trade war.' },
       ],
-      whyDoesThisMatter: {
-        heading: 'Why is a river treaty more complicated than it sounds?',
-        points: [
-          {
-            label: 'Geography',
-            text: 'Water does not follow political boundaries, so actions upstream can affect people far downstream.',
-          },
-          {
-            label: 'Federalism',
-            text: 'The Union handles foreign relations, but states experience the direct effects of river management.',
-          },
-          {
-            label: 'Environment',
-            text: 'Flooding, siltation, river ecology and changing rainfall all affect how water-management decisions work in practice.',
-          },
-        ],
-      },
-      biggerPicture: {
-        chain: ['River geography', 'Human engineering', 'State interests', 'International agreement', 'Water diplomacy'],
-        summary: 'A river can turn a local engineering decision into a national and international policy problem.',
-      },
-      thinkAboutThis: [
-        'Why can a river-sharing agreement create both cooperation and disagreement?',
-        'Why should the Centre consider state-level concerns while negotiating an international treaty?',
-      ],
-      explainPrompt: 'Explain why Bihar’s concerns about the Farakka Treaty create both a federal problem and an international diplomatic problem.',
+      whyDoesThisMatter: { heading: 'Why should India care?', points: [
+        { label: 'Global Trade', text: 'Trade disputes between major economies can disrupt international supply chains.' },
+        { label: 'Prices', text: 'Tariffs can raise the cost of imported inputs and finished goods.' },
+        { label: 'Policy', text: 'Countries have to balance protecting domestic producers with keeping trade open.' },
+      ] },
+      biggerPicture: { chain: ['Tariff', 'Retaliation', 'Higher trade costs', 'Supply-chain changes', 'Global uncertainty'], summary: 'International trade connects economies, so a dispute between two countries can create effects far beyond their borders.' },
+      thinkAboutThis: ['Why might a country impose tariffs even though tariffs can also hurt its own consumers?', 'How could a trade war affect a country that is not directly involved?'],
+      explainPrompt: 'Explain how retaliatory tariffs can turn a disagreement between two countries into a wider economic problem.'
     },
     {
-      id: 'other-neet-youth-employment',
-      number: 3,
-      title: 'What Is the “Other NEET” That India Needs to Worry About?',
-      category: '📊 Economy & Society',
-      newspaperPage: 'Page 13 (Explained)',
-      hook: 'When someone says “unemployment is falling”, it sounds like the jobs problem is being solved. But imagine counting only students who are actively asking for a job and ignoring young people who are neither studying nor working nor even looking for work. You would miss a large part of the problem.',
+      id: 'niti-aayog-degrees-skilling', number: 3,
+      title: 'Why Does NITI Aayog Say Many Degrees Have Weak Job Linkages?',
+      category: '📚 Education, Skills & Employment', newspaperPage: 'Page 10 (Nation)',
+      hook: 'A degree is like a map: having one does not automatically mean you know how to reach the destination. Education becomes more useful when what students learn connects with the skills employers actually need.',
       whatHappened: {
-        lead: 'The Indian Express examines youth employment and argues that India’s headline unemployment rate does not capture the full picture. It highlights the NEET measure — young people who are Not in Employment, Education or Training.',
-        who: 'India’s young population, workers, policymakers and researchers using Periodic Labour Force Survey and State of Working India data.',
-        where: 'Across India.',
-        when: 'The analysis appears in the August 25, 2026 edition.',
-        what: 'The article notes that the overall unemployment rate has fallen substantially, but youth unemployment remains much higher. It also raises concerns about the quality of jobs, low or stagnant earnings in many forms of work, and people who are outside the labour force altogether.',
-        immediateIssue: 'A low headline unemployment rate does not automatically mean that young people are finding good, stable and productive work.',
+        lead: 'NITI Aayog has flagged a disconnect between higher education and labour-market needs, noting that only 8.25% of graduates are employed in roles aligned with their qualifications, according to the report cited by the newspaper.',
+        who: 'NITI Aayog, students, graduates, employers and policymakers responsible for education and skilling.', where: 'India.', when: 'The report was released in August 2026.',
+        what: 'The report argues for more specialised, job-linked programmes in areas such as green industries and electric vehicles, along with greater emphasis on apprenticeships. It also highlights high graduate unemployment and a large number of young people classified as NEET.',
+        immediateIssue: 'India needs to improve the connection between education, skills and employment so that qualifications translate more effectively into productive work.',
       },
       whatYouNeedToKnow: [
-        {
-          conceptName: '1. What is UER?',
-          explanation: 'The Unemployment Rate measures unemployed people as a share of the labour force — people who are working or actively seeking work.',
-        },
-        {
-          conceptName: '2. What does NEET mean?',
-          explanation: 'NEET means Not in Employment, Education or Training. It includes young people who are neither working nor studying or training.',
-        },
-        {
-          conceptName: '3. Why does Job Quality Matter?',
-          explanation: 'A job can exist but still provide low income, little security, few opportunities to learn and weak prospects for improvement. Counting jobs alone cannot show all of these differences.',
-        },
+        { conceptName: '1. What is Skill Mismatch?', explanation: 'Skill mismatch occurs when the skills people have do not match the skills demanded by available jobs.' },
+        { conceptName: '2. What is an Apprenticeship?', explanation: 'An apprenticeship combines practical workplace learning with structured training.' },
+        { conceptName: '3. What is NEET?', explanation: 'NEET means Not in Education, Employment or Training.' },
       ],
-      breakItDown: {
-        analogyTitle: 'The Classroom Attendance Analogy',
-        analogyText: 'Suppose a teacher asks, “How many students are absent?” and counts only students who told the teacher they wanted to attend. Students who stopped coming and never asked to return would disappear from the calculation. Labour statistics can have a similar blind spot when discouraged people are outside the labour force.',
-        chain: ['Overall UER falls', 'Youth unemployment remains high', 'Some jobs have low or stagnant earnings', 'Some people stop looking for work', 'NEET captures a wider part of youth labour under-utilisation'],
-        formalTermExplanation: 'Labour-market indicators measure different things. A good analysis therefore looks at unemployment, labour-force participation, employment quality and NEET together rather than relying on one number.',
-      },
+      breakItDown: { analogyTitle: 'The Sports-Team Analogy', analogyText: 'Imagine selecting players for a cricket team based only on certificates rather than whether they can perform the roles the team needs. A labour market also needs people whose skills fit actual tasks.', chain: ['Education', 'Skills acquired', 'Employer demand', 'Job matching', 'Employment and productivity'], formalTermExplanation: 'Human-capital development works best when education and training equip people with capabilities that are relevant to changing economic activity.' },
       wordsYouNeedToKnow: [
-        {
-          term: 'Labour Force',
-          meaning: 'People who are working or actively seeking work.',
-          example: 'A person who has stopped looking for work may not be counted in the labour force.',
-        },
-        {
-          term: 'NEET',
-          meaning: 'Not in Employment, Education or Training.',
-          example: 'The NEET rate can show young people who are outside both work and education.',
-        },
-        {
-          term: 'Labour Under-utilisation',
-          meaning: 'A situation in which available human work potential is not being fully used, including unemployment or inadequate use of workers’ skills and time.',
-          example: 'High youth NEET levels can indicate significant labour under-utilisation.',
-        },
+        { term: 'Employability', meaning: 'The combination of knowledge, skills and qualities that helps a person obtain and perform a job.', example: 'Practical training can improve employability.' },
+        { term: 'Apprenticeship', meaning: 'A structured form of work-based learning.', example: 'Apprenticeships give students practical experience.' },
+        { term: 'Human Capital', meaning: 'The knowledge, skills and capabilities people develop through education, training and experience.', example: 'Investment in education can build human capital.' },
       ],
-      whyDoesThisMatter: {
-        heading: 'Why should students care about employment data?',
-        points: [
-          {
-            label: 'Future Jobs',
-            text: 'Students entering the workforce will be affected by the kinds of jobs the economy creates.',
-          },
-          {
-            label: 'Education',
-            text: 'Education is valuable only when people can connect learning with opportunities to use their skills.',
-          },
-          {
-            label: 'Policy',
-            text: 'Governments need good data to decide whether the priority is creating more jobs, better jobs, skills or pathways into work.',
-          },
-        ],
-      },
-      biggerPicture: {
-        chain: ['GDP growth', 'Jobs created', 'Job quality', 'Youth participation', 'Human potential'],
-        summary: 'Economic progress is not only about how fast the economy grows; it is also about whether people can participate in that growth through meaningful work.',
-      },
-      thinkAboutThis: [
-        'Why can a falling unemployment rate still coexist with serious problems for young people?',
-        'Why might a person who has stopped looking for work disappear from the unemployment rate?',
-      ],
-      explainPrompt: 'Explain why the unemployment rate alone may not tell us how difficult it is for Indian youth to find meaningful work.',
+      whyDoesThisMatter: { heading: 'Why does this matter to students?', points: [
+        { label: 'Course Choice', text: 'Students need to understand not only what a qualification teaches but how it connects to future opportunities.' },
+        { label: 'Skills', text: 'Communication, technical ability and practical experience can complement formal degrees.' },
+        { label: 'Economy', text: 'Better matching between skills and jobs can raise productivity and reduce educated unemployment.' },
+      ] },
+      biggerPicture: { chain: ['Education', 'Skills', 'Jobs', 'Productivity', 'Economic growth'], summary: 'Education policy is also employment policy because the skills people acquire influence the kinds of work they can perform.' },
+      thinkAboutThis: ['Why is a degree alone not necessarily enough to secure a job?', 'Why might apprenticeships help reduce the gap between classroom learning and employment?'],
+      explainPrompt: 'Explain the skill mismatch problem described by NITI Aayog and why job-linked education can matter.'
     },
     {
-      id: 'urban-flooding-heat',
-      number: 4,
-      title: 'Why Do Indian Cities Flood and Overheat Again and Again?',
-      category: '🏙️ Environment, Geography & Disaster Management',
-      newspaperPage: 'Page 13 (Explained)',
-      hook: 'A city can experience two very different disasters: streets underwater after heavy rain and neighbourhoods becoming dangerously hot during summer. They look unrelated, but both can be made worse by the same choices about concrete, drainage, trees, lakes and land use.',
+      id: 'rbi-state-of-economy', number: 4,
+      title: 'Why Does the RBI Say India’s Economy Is Resilient Despite Global Uncertainty?',
+      category: '📈 Indian Economy', newspaperPage: 'Page 15 (Economy)',
+      hook: 'Think of a cyclist riding through strong winds. The wind makes the journey harder, but a strong bicycle and steady pedalling can keep the rider moving. The RBI’s assessment similarly points to domestic strengths helping India withstand difficult global conditions.',
       whatHappened: {
-        lead: 'The Explained article examines why weather hazards become urban disasters when they meet vulnerable people, poor drainage, dense construction and weak planning.',
-        who: 'Urban residents, municipal governments, planners, disaster-management authorities and infrastructure agencies.',
-        where: 'Indian cities, with Gurugram used as a recent example of heat followed by severe waterlogging.',
-        when: 'The article discusses recent 2026 heat and flooding events and the wider planning problem.',
-        what: 'The article explains that heavy rain does not automatically have to produce severe flooding. Natural drains, lakes, floodplains and open soil allow water to move or soak into the ground. Similarly, tree cover, ventilation and less heat-absorbing surfaces can reduce extreme urban heat.',
-        immediateIssue: 'Climate change can increase heat and intense rainfall, but the scale of damage depends heavily on how cities are planned and built.',
+        lead: 'An RBI State of the Economy article says India is showing resilience despite geopolitical tensions, renewed US tariffs and trade uncertainty.',
+        who: 'Reserve Bank of India researchers and policymakers.', where: 'India and the global economy.', when: 'The RBI article was reported on August 25, 2026.',
+        what: 'The RBI points to buoyant domestic demand, recovering manufacturing and services activity, improving monsoon conditions and a rebound in capital inflows as supports for growth. The Monetary Policy Committee had kept the repo rate at 5.25% and marginally raised its FY27 growth forecast to 6.7%.',
+        immediateIssue: 'India has to maintain growth while watching inflation and external risks such as tariffs, geopolitical tensions and trade uncertainty.',
       },
       whatYouNeedToKnow: [
-        {
-          conceptName: '1. What is a Hazard?',
-          explanation: 'A hazard is a potentially harmful natural or human-made event, such as a heatwave or intense rainfall.',
-        },
-        {
-          conceptName: '2. When Does a Hazard Become a Disaster?',
-          explanation: 'A hazard becomes a disaster when it causes serious harm because people, buildings or systems are exposed and vulnerable and lack enough capacity to cope.',
-        },
-        {
-          conceptName: '3. What is the Urban Heat Island Effect?',
-          explanation: 'Cities can become hotter than surrounding areas because buildings, asphalt and other hard surfaces absorb and retain heat while vegetation is reduced.',
-        },
+        { conceptName: '1. What is the Repo Rate?', explanation: 'It is the policy rate at which the RBI lends to commercial banks, influencing borrowing costs across the economy.' },
+        { conceptName: '2. What is Inflation?', explanation: 'Inflation is a sustained rise in the general level of prices, which reduces the purchasing power of money.' },
+        { conceptName: '3. What is Domestic Demand?', explanation: 'Domestic demand is spending by households, businesses and governments within the country.' },
       ],
-      breakItDown: {
-        analogyTitle: 'The Sponge-and-Tile Analogy',
-        analogyText: 'Think of a natural landscape as a sponge. Rain can soak into soil, grasslands, wetlands and open ground. Cover much of that landscape with tiles — roads, roofs and concrete — and water runs across the surface instead. A city needs drainage and open spaces to work like a system of sponges and channels.',
-        chain: ['Climate and weather hazards', 'Dense construction', 'Loss of natural drainage and tree cover', 'Greater exposure and vulnerability', 'Urban disaster'],
-        formalTermExplanation: 'Disaster risk is shaped not only by the hazard itself but also by exposure, vulnerability and the capacity of systems to respond.',
-      },
+      breakItDown: { analogyTitle: 'The Strong-Bicycle Analogy', analogyText: 'A strong bicycle can keep moving even when the wind is against it. In an economy, strong domestic demand and productive activity can provide support when international conditions are unfavourable.', chain: ['Global uncertainty', 'Domestic demand', 'Manufacturing and services', 'Investment and capital inflows', 'Growth resilience'], formalTermExplanation: 'Economic resilience refers to an economy’s capacity to absorb shocks and continue functioning or recover without a severe and prolonged disruption.' },
       wordsYouNeedToKnow: [
-        {
-          term: 'Urban Flooding',
-          meaning: 'Flooding in a built-up area when rainfall or water flow exceeds the city’s ability to drain, store or safely carry the water away.',
-          example: 'Blocked drains and construction over natural water channels can increase urban flooding.',
-        },
-        {
-          term: 'Floodplain',
-          meaning: 'Low-lying land next to a river that can naturally be covered by water during high flows.',
-          example: 'Building heavily on floodplains can increase flood risk.',
-        },
-        {
-          term: 'Climate Resilience',
-          meaning: 'The ability of people and systems to prepare for, withstand and recover from climate-related hazards.',
-          example: 'Protecting drainage channels and tree cover can improve urban climate resilience.',
-        },
+        { term: 'Monetary Policy', meaning: 'The RBI’s management of interest rates and monetary conditions to influence inflation and economic activity.', example: 'The repo rate is a major monetary-policy instrument.' },
+        { term: 'Capital Inflows', meaning: 'Money entering a country for investment or other financial purposes.', example: 'A rebound in capital inflows can support investment and financial conditions.' },
+        { term: 'Growth Forecast', meaning: 'An estimate of how fast the economy is expected to grow.', example: 'The RBI raised its FY27 growth forecast to 6.7%.' },
       ],
-      whyDoesThisMatter: {
-        heading: 'Why is this a planning problem, not just a weather problem?',
-        points: [
-          {
-            label: 'Land',
-            text: 'What gets built and where it gets built determines how rainwater moves and how much heat a neighbourhood stores.',
-          },
-          {
-            label: 'Public Health',
-            text: 'Extreme heat and flooding can disrupt schools, work, transport and access to healthcare.',
-          },
-          {
-            label: 'Future Cities',
-            text: 'India’s cities will continue to grow, so today’s planning decisions determine tomorrow’s disaster risk.',
-          },
-        ],
-      },
-      biggerPicture: {
-        chain: ['Weather', 'Land use', 'Infrastructure', 'Exposure', 'Disaster risk'],
-        summary: 'We cannot control the weather, but cities can control many of the conditions that determine whether extreme weather becomes a disaster.',
-      },
-      thinkAboutThis: [
-        'Why can the same amount of rain cause very different levels of flooding in two cities?',
-        'What happens to a neighbourhood when trees, soil and water bodies are replaced by concrete?',
-      ],
-      explainPrompt: 'Explain how city planning can make heatwaves and heavy rain more dangerous.',
+      whyDoesThisMatter: { heading: 'Why does the RBI’s assessment matter?', points: [
+        { label: 'Jobs', text: 'Economic activity affects employment and household incomes.' },
+        { label: 'Prices', text: 'Inflation affects what households can buy with their income.' },
+        { label: 'Interest Rates', text: 'Monetary policy influences the cost of loans for households and businesses.' },
+      ] },
+      biggerPicture: { chain: ['Global shocks', 'Domestic demand', 'Monetary policy', 'Investment', 'Growth'], summary: 'An economy is influenced by both international conditions and its own domestic strengths.' },
+      thinkAboutThis: ['Why can strong domestic demand help an economy withstand global shocks?', 'Why does the RBI have to consider both growth and inflation?'],
+      explainPrompt: 'Explain the main reasons the RBI gives for India’s economic resilience and the risks that remain.'
     },
     {
-      id: 'ashoka-vaishya-tekri-ujjain',
-      number: 5,
-      title: 'What Can a New Archaeological Dig Tell Us About Ashoka?',
-      category: '🏛️ History & Archaeology',
-      newspaperPage: 'Page 13 (Explained)',
-      hook: 'History books tell us about famous rulers, but archaeology can test those stories against physical evidence. A new excavation at Vaishya Tekri in Ujjain is being used to investigate the city’s connection with Emperor Ashoka and the Mauryan period.',
+      id: 'tcs-porsche-ai', number: 5,
+      title: 'What Does the $1.5-Billion TCS–Porsche Deal Say About Indian IT?',
+      category: '💻 Technology, AI & Business', newspaperPage: 'Page 19 (Explained)',
+      hook: 'Imagine a company that once mainly repaired machines being hired to redesign the entire factory using artificial intelligence. That is the kind of shift happening as traditional IT services move toward AI, automation and business transformation.',
       whatHappened: {
-        lead: 'A fresh archaeological excavation at Vaishya Tekri in Ujjain is being undertaken to learn more about the site and its possible connection with Ashoka’s period and presence in the city.',
-        who: 'Archaeologists, researchers and the Madhya Pradesh government, studying a major archaeological site at Ujjain.',
-        where: 'Vaishya Tekri, Ujjain, Madhya Pradesh.',
-        when: 'The new excavation is reported in the August 25, 2026 edition.',
-        what: 'Researchers are investigating the archaeological remains at Vaishya Tekri to understand the site’s chronology, architecture and connection with the Mauryan period. Excavation can reveal material evidence that helps historians compare physical remains with literary and historical traditions.',
-        immediateIssue: 'Archaeology rarely produces a complete story from one discovery. Researchers have to date objects, study layers and compare evidence before making strong historical conclusions.',
+        lead: 'Tata Consultancy Services has entered a strategic partnership with Porsche AG worth €1.25 billion, around $1.5 billion, to provide AI services across Porsche’s mobility value chain.',
+        who: 'Tata Consultancy Services (TCS) and German sports-car maker Porsche AG.', where: 'India–Germany/global technology and automotive sectors.', when: 'Announced in August 2026.',
+        what: 'TCS will establish an AI Mobility Centre of Excellence for Porsche covering manufacturing, engineering, operations and customer experience. The article compares this with other large recent deals involving Indian IT companies such as Infosys, Wipro and HCLTech.',
+        immediateIssue: 'Large contracts show that global companies are still spending on AI, automation and transformation, but a large contract value does not automatically mean immediate revenue or a full IT-sector boom.',
       },
       whatYouNeedToKnow: [
-        {
-          conceptName: '1. What is Archaeology?',
-          explanation: 'Archaeology is the study of past human societies through material remains such as buildings, pottery, tools, inscriptions and other physical evidence.',
-        },
-        {
-          conceptName: '2. What is Stratigraphy?',
-          explanation: 'Stratigraphy is the study of layers of soil and archaeological deposits. Lower undisturbed layers are generally older than layers above them.',
-        },
-        {
-          conceptName: '3. Who Was Ashoka?',
-          explanation: 'Ashoka was a major ruler of the Mauryan Empire. He is especially remembered for his inscriptions and for promoting Dhamma after the Kalinga War.',
-        },
+        { conceptName: '1. What is Generative AI?', explanation: 'Generative AI refers to AI systems capable of producing new content or outputs such as text, images, code or other data.' },
+        { conceptName: '2. What is a Centre of Excellence?', explanation: 'It is a specialised unit created to develop expertise, research, standards or innovation in a particular field.' },
+        { conceptName: '3. Why Are Contract Values Misleading?', explanation: 'A multi-year contract is usually delivered and recognised over time; the headline value is not the same as immediate annual revenue.' },
       ],
-      breakItDown: {
-        analogyTitle: 'The Detective Analogy',
-        analogyText: 'Imagine trying to solve a mystery when the witnesses are no longer alive. You examine footprints, objects, photographs and the order in which things were left behind. Archaeologists work in a similar way: they collect physical clues and build the most evidence-based explanation they can.',
-        chain: ['Excavation', 'Layers and objects found', 'Dating and analysis', 'Comparison with inscriptions and historical sources', 'Stronger understanding of the past'],
-        formalTermExplanation: 'Archaeological evidence is strongest when different kinds of evidence — material remains, inscriptions, texts, dating and context — support one another.',
-      },
+      breakItDown: { analogyTitle: 'The Long-Term Project Analogy', analogyText: 'If a builder signs a ₹100-crore contract for a five-year project, the builder does not receive ₹100 crore as profit on day one. Work, costs, milestones and payments happen over time. IT contracts work similarly.', chain: ['AI demand rises', 'Global firms seek transformation', 'Indian IT firms win large contracts', 'Implementation takes time', 'Revenue and profits must be assessed over several years'], formalTermExplanation: 'The shift toward AI-enabled services can change the composition of IT spending, favouring projects that automate processes, reduce costs or transform business operations.' },
       wordsYouNeedToKnow: [
-        {
-          term: 'Excavation',
-          meaning: 'The careful digging and recording of an archaeological site to uncover buried remains.',
-          example: 'An excavation at Vaishya Tekri can reveal structures and objects from earlier periods.',
-        },
-        {
-          term: 'Mauryan Empire',
-          meaning: 'A large ancient Indian empire that flourished roughly from the 4th to 2nd centuries BCE.',
-          example: 'Ashoka was one of the best-known Mauryan rulers.',
-        },
-        {
-          term: 'Inscription',
-          meaning: 'Writing carved or engraved on a durable surface such as stone or metal.',
-          example: 'Ashoka’s inscriptions are important sources for understanding his reign and ideas.',
-        },
+        { term: 'Inorganic Growth', meaning: 'Growth achieved through acquisitions, mergers or strategic partnerships rather than only through internal expansion.', example: 'Indian IT firms have used acquisitions and partnerships to expand AI capabilities.' },
+        { term: 'Automation', meaning: 'Using technology to perform tasks with reduced human intervention.', example: 'AI can support automation in manufacturing and customer service.' },
+        { term: 'Revenue Recognition', meaning: 'The accounting process of recording income when it is earned under the relevant accounting rules.', example: 'A long-term contract’s value is not necessarily recognised as revenue immediately.' },
       ],
-      whyDoesThisMatter: {
-        heading: 'Why does archaeology matter?',
-        points: [
-          {
-            label: 'Evidence',
-            text: 'Physical remains can confirm, challenge or add detail to written historical accounts.',
-          },
-          {
-            label: 'Local History',
-            text: 'Sites such as Ujjain help connect national history with the places where people actually lived.',
-          },
-          {
-            label: 'Scientific Method',
-            text: 'Archaeologists test ideas against evidence instead of simply accepting every traditional claim as fact.',
-          },
-        ],
-      },
-      biggerPicture: {
-        chain: ['Ancient settlement', 'Buried remains', 'Scientific excavation', 'Evidence analysis', 'Historical interpretation'],
-        summary: 'Archaeology turns fragments of the past into evidence that can help us understand how ancient societies were organised and how historical events unfolded.',
-      },
-      thinkAboutThis: [
-        'Why should historians compare archaeological evidence with written sources?',
-        'Why is it important to record exactly where an archaeological object is found?',
-      ],
-      explainPrompt: 'Explain how a new excavation can improve our understanding of Ashoka and the Mauryan period without simply relying on old stories.',
-    },
+      whyDoesThisMatter: { heading: 'Why does this matter for India?', points: [
+        { label: 'IT Industry', text: 'Indian IT companies are adapting to AI-driven changes in global technology spending.' },
+        { label: 'Jobs', text: 'AI can change which technical and business skills are in demand.' },
+        { label: 'Exports', text: 'Technology services are an important part of India’s global economic presence.' },
+      ] },
+      biggerPicture: { chain: ['AI adoption', 'Corporate transformation', 'Indian IT services', 'Large global contracts', 'Changing skill demand'], summary: 'AI is not simply creating new software tools; it is changing what businesses are willing to pay technology companies to do.' },
+      thinkAboutThis: ['Why does a large contract not automatically prove that an IT company has returned to a boom?', 'How might AI change the skills students need for future technology jobs?'],
+      explainPrompt: 'Explain what the TCS–Porsche deal tells us about AI, Indian IT companies and the changing nature of technology spending.'
+    }
   ],
 };
