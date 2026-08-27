@@ -73,7 +73,7 @@ export default function App() {
             <span>HOW TO USE TODAY'S ISSUE</span>
           </div>
           <p className="font-serif-news text-sm sm:text-base text-[#382F22] leading-relaxed">
-            Today’s <em>Indian Express</em> has been carefully curated into five essential stories spanning geopolitics, global trade, education and employment, the Indian economy, and AI-driven technology. Each story gives you the background knowledge you need first, then connects the headline to everyday ideas so that you understand the news rather than simply memorise it.
+            Today’s <em>Indian Express</em> has been carefully curated into five essential stories from the August 27 Delhi edition. Each story gives you the background knowledge you need first, then connects the headline to everyday ideas so that you understand the news rather than simply memorise it.
           </p>
         </div>
 
@@ -99,7 +99,7 @@ export default function App() {
       <footer className="border-t-4 border-[#24211D] bg-[#EFEAD8] py-8 text-center text-xs text-[#52493A] mt-10">
         <div className="max-w-4xl mx-auto px-4 space-y-3">
           <p className="font-serif-news text-base font-bold text-[#1F1C18]">THE LEARNING EXPRESS • Clean Editorial Reading Edition</p>
-          <p className="max-w-xl mx-auto leading-relaxed">Primary factual source: <em>The Indian Express</em>, Wednesday, August 26, 2026, Delhi edition. Designed for students in Classes 8–10 to build foundational background knowledge, news literacy, and critical thinking.</p>
+          <p className="max-w-xl mx-auto leading-relaxed">Primary factual source: <em>The Indian Express</em>, Thursday, August 27, 2026, Delhi edition. Designed for students in Classes 8–10 to build foundational background knowledge, news literacy, and critical thinking.</p>
           <div className="newspaper-rule-double my-3" />
           <p className="text-[11px] font-mono text-[#6E614E]">"Understand the news. Connect the dots. Learn without fear."</p>
         </div>
